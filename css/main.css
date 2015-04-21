@@ -64,7 +64,7 @@ nav ul li a {
 #active {
 	background-color: #E0F5FF;
 	border: 1px solid #E0F5FF;
-	border-radius: .25em .25em 0px 0px;
+	border-radius: .5em .5em 0px 0px;
 	text-align:center;
 	padding: 0 5px 0 0;
 }
