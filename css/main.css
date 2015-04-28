@@ -1,4 +1,4 @@
-#wrapper {
+.wrapper {
 	width: 1000px;
 	margin: 0 auto;
 	background-color: #E0F5FF;
@@ -14,22 +14,21 @@ header {
 	background-color: #4c4c4c;
 	max-height: 120px;
 }
-h1#brandName {
+.brandName {
 	float: left;
 	font-size: 15pt;
 	margin: 25px 0 -15px 15px;
 }
-h1#brandName a {
+.brandName a {
 	text-decoration: none;
 	color: white;
 }
 .larger {
 	font-size: 1.4em;
 }
-#org {
-	color: #808080;
-}
-#special:hover{
+.org { color: #808080; }
+
+.special:hover{
 	text-shadow: 0 0 1px white, 0 0 1px white;
 	/*creates "bold" effect w/o moving items*/
 }
@@ -37,7 +36,7 @@ h1#brandName a {
 a:hover {
 	color:white;
 }
-#current:hover {
+.current:hover {
 	color: #808080;
 }
 nav {
@@ -61,14 +60,16 @@ nav ul li a {
 	color: #808080;
 	margin: 10px 5px 5px 5px;	
 }
-#active {
+.active {
 	background-color: #E0F5FF;
 	border: 1px solid #E0F5FF;
-	border-radius: .5em .5em 0px 0px;
+	border-top-right-radius: .5em .5em;
+	border-top-left-radius: .5em .5em;
 	text-align:center;
-	padding: 0 5px 0 0;
+	padding-right: 5px;
+	padding-left: 5px;
 }
-#special {
+.special {
 	color: white;
 	background-color: #E62E00;
 	border: 1px solid #E62E00;
@@ -76,4 +77,4 @@ nav ul li a {
 	margin: 0 20px 0 0;
 	text-align: center;
 }
-li#special a { color: white; }
+li.special a { color: white; }
